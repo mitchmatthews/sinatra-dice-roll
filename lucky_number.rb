@@ -60,5 +60,5 @@ get("/dice/5/4") do
 	
 	@outcome = "You rolled a #{first_die}, a #{second_die}, a #{third_die}, and a #{fourth_die} for a total of #{sum}."
 	
-	erb(:two_ten, { :layout => :wrapper })five_four
+	erb(:five_four, { :layout => :wrapper })
 end
